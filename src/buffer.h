@@ -86,7 +86,7 @@ namespace global
 
 		operator bool() const
 		{
-			return buf;
+			return (bool)buf;
 		}		
 
 	private:
