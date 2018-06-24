@@ -13,7 +13,7 @@ $cd src
 $make
 
 On Windows:
-Becasue the code was written cross-platformly, it can be compiled as a Visual Studio C++ project. What you have to do is to create a project and import all files under src dir, also remember to link those Boost libs listed in Makefile.
+Becasue the project is cross-platform, it can be compiled as a Visual Studio C++ project. What you have to do is to create a project and import all files under src dir, also remember to link those Boost libs listed in Makefile.
 
 [Configuration and Usage]
 Refer to the comments in proxy.conf to see how to configure the forwarding rules.
