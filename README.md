@@ -19,9 +19,11 @@ Becasue the project is cross-platform, it can be compiled as a Visual Studio C++
 Refer to the comments in proxy.conf to see how to configure the forwarding rules.
 A typical proxy.conf looks like:
 
+```
 tcp 3443 180.166.47.38 3443 
 tcp 1234 180.166.47.38 1234 100000
 udp 6500 10.35.60.1 6500 100000 100 1000
+```
 
 The 1st line shows the proxy will open local tcp port 3443 to receive new connections which are to be forwarded directly to  and from remote address 180.166.47.38/3443.
 
